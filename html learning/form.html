@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="" action="">
+        <table border="1" align="center" width="400">
+            <caption><h2>Registration Form</h2></caption>
+            <tr>
+                <th>Enter your first name :</th>
+                <td><input type="text" placeholder="Enter your first name" required></td>
+            </tr>
+            <tr>
+                <th>Enter your last name :</th>
+                <td><input type="text" placeholder="enter your last name" required></td>
+            </tr>
+            <tr>
+                <th>Enter your password : </th>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <th>ReEnter your password</th>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <th>Enter your mobile number</th>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <th>Enter your address</th>
+                <td><textarea name="address"  cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <th>Select your Gender :</th>
+               <td> <input type="radio" name="gender" val="female">Female
+                <input type="radio" name="gender" value="male">Male</td>
+            </tr>
+            <tr>
+                <th>Select subjects you want  </th>
+                <td><input type="checkbox" name="subject" value="telugu">Telugu 
+                <input type="checkbox" name="subject" value="hindi">Hindi
+                <input type="checkbox" name="subject" value="english">English
+                <input type="checkbox" name="subject" value="math">Mathematics
+                <input type="checkbox" name="subject" value="science">Science
+                <input type="checkbox" name="subject" value="social">Social</td>
+            </tr>
+            <tr>
+                <th>Select your DOB</th>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <th>Select your country</th>
+                <td><select name="country" >
+                    <option value="1">India</option>
+                    <option value="2">China</option>
+                    <option value="3">America</option>
+                    <option value="4">Europe</option>
+                    <option value="5">Indonasia</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td align="cenetr"><input type="submit" value="Sumbit"></td>
+                <td align="center"><input type="reset" name="reset" ></td>
+            </tr>
+          
+        </table>
+
+    </form>
+</body>
+</html>
