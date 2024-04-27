@@ -1,0 +1,27 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: inline-block;
+    border: solid black;
+}
+
+#box1 {
+    background-color: yellow;
+    background-image: url("bird.jpg");
+    background-size: cover;
+
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box3{
+    background-color: green;
+
+}
+
+#box4 {
+    background-color: red;
+}

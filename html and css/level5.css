@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+@media (width : 600px){
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+    }
+} 
+
+@media (min-width : 700px){
+    div{
+        height: 50px;
+         width: 50px;
+         background-color: green;
+    }
+    
+}

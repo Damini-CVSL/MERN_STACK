@@ -1,0 +1,14 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-image: url("bird.jpg");
+    background-size: cover;
+    color: purple;
+    position: fixed;
+    right: 0;
+    top: 20px;
+}
+p {
+    font-size: 30px;
+    
+}

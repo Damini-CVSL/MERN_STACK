@@ -1,0 +1,39 @@
+*{
+    color: brown;
+}
+
+#headingOne {
+    color: chocolate;
+}
+
+#headingTwo {
+    color: magenta;
+}
+
+.myClass {
+    color: olive;
+}
+
+#heading {
+    text-align: center;
+    color: rgb(122, 27, 149);
+}
+ p {
+    text-align: center;
+    color: blueviolet;
+    line-height: 50px;
+    text-transform: lowercase;
+ }
+
+ h1 {
+    text-decoration: blue overline;
+    text-decoration-style: double;
+ }
+
+ h2 {
+    text-decoration: underline dotted;
+ }
+
+h3 {
+    text-decoration: blue line-through wavy;
+}
